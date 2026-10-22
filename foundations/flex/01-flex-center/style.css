@@ -1,15 +1,19 @@
-.container {
-  background: dodgerblue;
-  border: 4px solid midnightblue;
+.con {
+  height: 400px;
+  background-color: yellow;
   width: 400px;
-  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+  margin: 100px;
 }
 
-.box {
-  background: palevioletred;
-  font-weight: bold;
-  text-align: center;
-  border: 6px solid maroon;
-  width: 80px;
+.center {
+  background-color: green;
   height: 80px;
+  width: 80px;
+  border: 9px solid violet;
+  text-align: center;
+  color: papayawhip;
 }

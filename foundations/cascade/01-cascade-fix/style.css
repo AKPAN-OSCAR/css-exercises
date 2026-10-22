@@ -1,42 +1,43 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+.p1 {
+  font-size: 27px;
   font-weight: 800;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.small-para {
-  font-size: 14px;
+.p2 {
   font-weight: 800;
+  font-size: 17.2px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
+.btn-1 {
+  background-color: green;
   color: white;
+  width: 115px;
+  font-size: 25px;
   font-weight: bold;
-} 
+  border: 2px solid black;
+  height: 5%;
+}
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+.btn-2 {
+  width: 100px;
+  font-size: 25px;
+  border: 2px solid;
+  height: 5%;
+  /* font-weight: bold; */
+}
+
+.text {
+  font-size: 29px;
 }
 
 .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+  font-size: 29px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+.small-child {
+  font-weight: 800;
+  font-size: 17.2px;
+  font-family:Arial, Helvetica, sans-serif;
 }

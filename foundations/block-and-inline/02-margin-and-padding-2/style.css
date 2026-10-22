@@ -1,45 +1,42 @@
 body {
-  background: gray;
-  font-family: sans-serif;
+  background-color: gray;
 }
 
 .card {
-  width: 500px;
-  background: white;
-  margin: 16px auto;
-  padding: 12px;
-  /* margin: auto; */
-  margin-bottom: 12px;
-}
-
-.title,
-.content,
-.button-container {
-  background: dodgerblue;
-}
-
-button {
-  background: white;
-  display: block;
-  padding: 12px;
-  margin-left: 160px;
-  width: 150px;
-
-
-}
-
-.button-container {
-  padding: 12px;
-  text-align: center;
-}
-
-.content {
-  padding: 12px;
-  margin-bottom: 12px;
-
+  background-color: white;
+  margin: auto;
+  width: 370px;
+  padding: 8px;
+  margin-top: 40px;
 }
 
 .title {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  background-color: #5353e3eb;
+  padding: 5px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #5353e3eb;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.button-content{
+  background-color: #5353e3eb;
+  text-align: center;
+  padding: 2px;
+  margin: 12px 0px 0px 0px;
+  margin-top: 8px;
+  }
+
+button {
+  display: block;
+  margin-left: 120px;
+  padding: 8px;
+  border: 1.5px solid black;
+  width: 130px;
+  text-align: center;
+  margin-bottom: 8px;
 }
