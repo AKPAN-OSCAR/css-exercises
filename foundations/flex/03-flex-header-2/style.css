@@ -1,48 +1,61 @@
-/* this is some magical font-importing.  
-you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
-
 body {
-  margin: 0;
-  background: #eee;
-  font-family: Besley, serif;
+  background-color: aqua;
+  margin: 0%;
 }
 
-.header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+.con {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  /* margin: 0%; */
 }
 
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-}
-
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-}
-
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 a {
-  /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: violet;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+button {
+  background: violet;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px;
+  width: 140px;
+  color: papayawhip;
+  font-size: 16px;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+  background: violet;
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: 0 0 10px aqua;
+}
+
+.logo {
+  color: violet;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
