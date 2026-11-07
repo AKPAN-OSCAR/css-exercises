@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background-color: lavender;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 
-.close-button {
+.can-btn {
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -66,4 +66,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+/* header container should be wrapped around the button element as well in order for flex style to work */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }

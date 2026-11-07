@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    font-family: Besly, sans-serif;
+    
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 18px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+.logo {
+    color: purple;
+    font-size: 700;
+}
+
+button {
+    background-color: purple;
+    color: white;
+}
