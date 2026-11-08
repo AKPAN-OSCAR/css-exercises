@@ -1,95 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 html, body {
   height: 100%;
 }
 
 body {
-  font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
-  color: #333;
-  /* I'll give you this one for free */
+  background-color: slategray;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background-color: lavender;
-  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 42px;
+  width: 42px;
+  background-color: paleturquoise;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 5px;
 }
 
-.can-btn {
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 400;
-  font-size: 16px;
-  height: 24px;
-  width: 24px;
+.close-btn {
+  justify-content: center;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid #eee;
-  padding: 0;
+  /* padding: 12px; */
 }
 
-button {
-  cursor: pointer;
-  padding: 8px 16px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+/* .con { */
+  /* display: flex; */
+  
+  /* width: 350px; */
+/* } */
+
+.modal {
+  display: flex;
+  /* padding: 20px; */
+  /* background-color: white; */
+  width: 550px;
+  padding: 25px;
+  background-color: white;
+  gap: 16px;
   border-radius: 8px;
 }
 
-button.continue {
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
-}
-
-button.cancel {
-  background: white;
-  border: 1px solid #ddd;
-  color: royalblue;
-}
-
-/* SOLUTION: */
-
-.modal {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-}
-
-.icon {
-  /* this keeps the icon from getting smashed by the text */
-  flex-shrink: 0;
-}
-/* header container should be wrapped around the button element as well in order for flex style to work */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
 .text {
-  margin-bottom: 16px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  /* width: 450px; */
 }
+
+button {
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+}
+
+button.con-btn {
+  background-color: rgb(71, 71, 229);
+  color: white;
+  border: 1px solid slategray;
+}
+
+button.can-btn {
+  background-color: white;
+  color: rgb(71, 71, 229);
+  border: 1px solid slategray;
+}
+
+.close-btn {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 12px;
+  padding: 14px;
+  cursor: pointer;
+  border: 0;
+  background-color: slategray;
+}
+
+
+/* .close-btn { */
+  /* width: 28px; */
+  /* height: 28px; */
+  /* padding: 0; */
+  /* border-radius: 50%; */
+  /* border: 0; */
+  /* background-color: slategray; */
+  /* cursor: pointer; */
+/* } */

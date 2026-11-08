@@ -9,6 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: papayawhip;
+    padding: 12px;
 }
 
 .left,
@@ -33,10 +35,51 @@ a {
 
 .logo {
     color: purple;
-    font-size: 700;
+    font-size: 44px;
+    font-weight: 800;
 }
 
 button {
     background-color: purple;
     color: white;
+    padding: 12px;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    width: 170px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border-radius: 40px;
+    /* box-shadow: 20px aquamarine; */
+}
+
+  .con2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: papayawhip;
+    margin-top: 20px;
+    padding: 100px;
+    /* width: 30px; */
+}
+
+.con2a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+
+.box1 {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid purple;
 }
